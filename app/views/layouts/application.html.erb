@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Burkut2</title>
+    <title>
+      <%= t 'index.org' %>
+    </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css">
+    <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/js/responsiveCarousel.min.js"></script>
   </head>
 
   <body>
+    <style>
+      span:hover {
+      color: yellow;
+      text-decoration: underline;
+    </style>
+
+    <div class="fixed-top" >  
+      <nav class="navbar navbar-expand-lg navbar-light" style="background: #AC172B; z-index: 999; top: 0px; height: 80px">
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo_1.png" width="165" height="120" alt="" loading="lazy" style="margin-top: 40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: #AC172B ">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" style="height: 0px">
+
+          <li class="nav-item active ml-auto">
+              <%= link_to root_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" do %>
+               <span class="badge" style="background: #AC172B"><b><%= t('layout.home') %></b></span>
+              <% end %>
+          </li>
+
+          <li class="nav-item active ml-auto">
+              <%= link_to products_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" do %>
+               <span class="badge" style="background: #AC172B"><b><%= t('layout.products') %></b></span>
+              <% end %>
+          </li>
+              
+          <li class="nav-item active ml-auto">
+              <%= link_to partners_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" do %>
+               <span class="badge" style="background: #AC172B"><b><%= t('layout.partners') %></b></span>
+              <% end %>
+          </li>
+
+          <li class="nav-item active ml-auto">
+              <%= link_to vacancies_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" do %>
+               <span class="badge" style="background: #AC172B"><b><%= t('layout.vacancies') %></b></span>
+              <% end %>
+          </li>
+          
+          <li class="nav-item active ml-auto">
+              <%= link_to contacts_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" do %>
+               <span class="badge" style="background: #AC172B"><b><%= t('layout.contacts') %></b></span>
+              <% end %>
+          </li>
+
+        </ul>
+        <ul>
+    <li><%= link_to 'English', root_path(locale: :en) %></li>
+    <li><%= link_to 'Русский', root_path(locale: :ru) %></li>
+    <li><%= link_to "Job Info", products_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" %></li>
+  </ul>
+      </nav>
+    </div>
+    
+        
+         
     <%= yield %>
+   
+    <nav class="navbar navbar-dark mx-center fixed-bottom" style="background-color: #AC172B; z-index: 999">
+      <div class="mx-auto order-0">
+      <h7 class="navbar-brand mx-auto">
+      <center>
+        <b>
+          &copy; "BURKUT" 2020
+        </b>
+      </center>
+      </h7> 
+      </div>
+    </nav>
   </body>
 </html>

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+        <script type="text/javascript" src="/highslide/highslide-with-gallery.js"></script>
+        <script type="text/javascript" src="/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="/js/owl.carousel.min.js"></script>  
+        <link rel="stylesheet" type="text/css" media="all" href="/css/owl.carousel.css">
+<!--
+	2) Optionally override the settings defined at the top
+	of the highslide.js file. The parameter hs.graphicsDir is important!
+-->
+
+        <script type="text/javascript">
+        	hs.graphicsDir = '/highslide/graphics/';
+        	hs.align = 'center';
+        	hs.transitions = ['expand', 'crossfade'];
+        	
+        	hs.fadeInOut = true;
+        	hs.dimmingOpacity = .75;
+
+        	// Add the controlbar
+        	if (hs.addSlideshow) hs.addSlideshow({
+        		//slideshowGroup: 'group1',
+        		interval: 5000,
+        		repeat: false,
+        		
+        		fixedControls: 'fit',
+        		overlayOptions: {
+        			opacity: .6,
+        			position: 'bottom center',
+        			hideOnMouseOut: true
+        		}
+        	});
+        </script>
+        <script type="text/javascript">
+        $(function(){
+          $('.crsl-items').carousel({
+            visible: 6,
+            itemMinWidth: 180,
+            itemEqualHeight: 300,
+            itemMargin: 6,
+          });
+          
+          $("a[href=#]").on('click', function(e) {
+            e.preventDefault();
+          });
+        });
+        </script>
+        <script type="text/javascript">
+        	$(document).ready(function(){
+          $(".slide-one").owlCarousel({
+                loop:true, //Зацикливаем слайдер
+                margin:30, //Отступ от картино если выводите больше 1
+                nav:false, //Отключил навигацию
+                autoplay:true, //Автозапуск слайдера
+                smartSpeed:1000, //Время движения слайда
+                autoplayTimeout:2000, //Время смены слайда
+                responsive:{ //Адаптация в зависимости от разрешения экрана
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
+
+            $(".slide-two").owlCarousel({
+                loop:true, //Зацикливаем слайдер
+                margin:30, //Отступ от картино если выводите больше 1
+                nav:false, //Отключил навигацию
+                autoplay:true, //Автозапуск слайдера
+                smartSpeed:1000, //Время движения слайда
+                autoplayTimeout:2000, //Время смены слайда
+                responsive:{ //Адаптация в зависимости от разрешения экрана
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
+             $(".slide-three").owlCarousel({
+                loop:true, //Зацикливаем слайдер
+                margin:30, //Отступ от картино если выводите больше 1
+                nav:false, //Отключил навигацию
+                autoplay:true, //Автозапуск слайдера
+                smartSpeed:1000, //Время движения слайда
+                autoplayTimeout:2000, //Время смены слайда
+                responsive:{ //Адаптация в зависимости от разрешения экрана
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
+             $(".slide-four").owlCarousel({
+                loop:true, //Зацикливаем слайдер
+                margin:30, //Отступ от картино если выводите больше 1
+                nav:false, //Отключил навигацию
+                autoplay:true, //Автозапуск слайдера
+                smartSpeed:1000, //Время движения слайда
+                autoplayTimeout:2000, //Время смены слайда
+                responsive:{ //Адаптация в зависимости от разрешения экрана
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            }); 
+        });
+        </script>>
+
+
+
+
+
+</head>
+<br><br><br><br><br>
+<body>
+    <div> 
+      <div class="shadow-lg p-3 mb-5 bg-white rounded" style="height: 60px"> 
+        <div class="w-100 p-3 page-header text-center">
+            <h1 style="margin-top: -35px">
+                <%= t('products.namepage') %>
+            </h1>
+        
+        </div>  
+      </div>    
+    </div>
+
+    <div class="container-fluid">
+	<div class="shadow-lg p-3 mb-5 rounded">
+		<div class="w-100 p-3" style="background-color: #eee;">   
+        	<center>
+        		<h1 align="center" style="font-size: 25px">DÜRDÄNE</h1>      
+         			<a href="/images/products/Durdane/Durdane_main.jpg" class="highslide" onclick="return hs.expand(this)">
+    						<img src="/images/products/Durdane/Durdane_main.jpg" alt="Highslide JS" style="width: 200px; height: 250px">
+    				</a>
+    			<h1 align="center" style="font-size: 15px"><%= t('products.durdane') %></h1>
+    			<h1 align="center" style="line-height: 1; font-size: 12px">
+                    <%= t('products.weght') %> 6 <%= t('products.and') %> 8 <%= t('products.kg') %> 
+    			<br>
+    			     <%= t('products.box') %> 132 <%= t('products.pc') %>
+    			<br>
+                    <%= t('products.lifetime') %> 9 <%= t('products.mouth') %>
+                <br>
+    				<%= t('products.keeping') %> 18 (± 3) ℃
+    			<br>
+    				<%= t('products.pack') %> <%= t('products.gr') %> :150,250,300,400,500,1000
+    			</h1>
+        	</center>
+    	<br>
+    	<div class="owl-carousel slide-one">
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_apple.jpg" class="highslide" onclick="return hs.expand(this)" >
+				<img src="/images/products/Durdane/Durdane_apple.jpg" alt="Highslide JS">
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_pineapple.jpg" class="highslide" onclick="return hs.expand(this)" >
+					<img src="/images/products/Durdane/Durdane_pineapple.jpg" alt="Highslide JS">
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_orange.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_orange.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_banan.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_banan.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_watermelon.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_watermelon.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/durane_melon.jpg" class="highslide" onclick="return hs.expand(this)">
+					<img src="/images/products/Durdane/durane_melon.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_strawberry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_strawberry.jpg" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_raspberry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_raspberry.jpg" >
+			</a>
+		</div>
+		<div class="item">
+    	<a href="/images/products/Durdane/Durdane_peach.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_peach.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Durdane/Durdane_cherry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Durdane/Durdane_cherry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    </div>
+    </div>	
+  </div>  	  
+
+<div class="container-fluid">
+	<div class="shadow-lg p-3 mb-5 rounded">
+		<div class="w-100 p-3" style="background-color: #eee;">   
+    	<center>
+    		<h1 align="center" style="font-size: 25px">LÄLE FAM</h1>      
+     			<a href="/images/products/LALEfam/lale_fam_main.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="/images/products/LALEfam/lale_fam_main.jpg" alt="Highslide JS" style="width: 200px; height: 250px">
+					</a>
+					<h1 align="center" style="font-size: 15px"><%= t 'products.lalefam' %></h1>
+					  <h1 align="center" style="line-height: 1; font-size: 12px">
+                        <%= t('products.weght') %> 6 <%= t('products.and') %> 8 <%= t('products.kg') %> 
+                    <br>
+                        <%= t('products.box') %> 132 <%= t('products.pc') %>
+                    <br>
+                        <%= t('products.lifetime') %> 9 <%= t('products.mouth') %>
+                    <br>
+                        <%= t('products.keeping') %> 18 (± 3) ℃
+                    <br>
+                        <%= t('products.pack') %> <%= t('products.gr') %> :150,250,300,400,500,1000
+						</h1>
+    	</center>
+    	<br>
+    	<div class="owl-carousel slide-two">
+    <div class="item">
+    	<a href="/images/products/LALEfam/lale_fam_cacao.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/LALEfam/lale_fam_cacao.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/LALEfam/lale_fam_capuccino.jpg" class="highslide" onclick="return hs.expand(this)">
+					<img src="/images/products/LALEfam/lale_fam_capuccino.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/LALEfam/lale_fam_chocolate.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/LALEfam/lale_fam_chocolate.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/LALEfam/lale_fam_cream.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/LALEfam/lale_fam_cream.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		    <div class="item">
+    	<a href="/images/products/LALEfam/lale_fam_funduk.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/LALEfam/lale_fam_funduk.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+</div>
+    </div>	
+  </div>  	  
+</div>
+<div class="container-fluid">
+	<div class="shadow-lg p-3 mb-5 rounded">
+		<div class="w-100 p-3" style="background-color: #eee;">   
+    	<center>
+    		<h1 align="center" style="font-size: 25px">TUBY</h1>      
+     			<a href="/images/products/Tuby/Tuby_main.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="/images/products/Tuby/Tuby_main.jpg" alt="Highslide JS" style="width: 200px; height: 250px">
+					</a>
+					<h1 align="center" style="font-size: 15px"><%= t 'products.tuby' %></h1>
+					  <h1 align="center" style="line-height: 1; font-size: 12px">
+                        <%= t('products.weght') %> 6 <%= t('products.and') %> 8 <%= t('products.kg') %> 
+                    <br>
+                        <%= t('products.box') %> 132 <%= t('products.pc') %>
+                    <br>
+                        <%= t('products.lifetime') %> 9 <%= t('products.mouth') %>
+                    <br>
+                        <%= t('products.keeping') %> 18 (± 3) ℃
+                    <br>
+                        <%= t('products.pack') %> <%= t('products.gr') %> :150,250,300,400,500,1000
+					   </h1>
+    	</center>
+    	<br>
+    	<div class="owl-carousel slide-two">
+    <div class="item">
+    	<a href="/images/products/Tuby/Tuby_banana.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby_banana.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Tuby/Tuby_blueberry.jpg" class="highslide" onclick="return hs.expand(this)">
+					<img src="/images/products/Tuby/Tuby_blueberry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Tuby_cherry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby_cherry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Tuby/Tuby_melon.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby_melon.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		    <div class="item">
+    	<a href="/images/products/Tuby/Tuby_peach.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby_peach.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		 <div class="item">
+    	<a href="/images/products/Tuby/Tuby_pineapple-passion.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby_pineapple-passion.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		 <div class="item">
+    	<a href="/images/products/Tuby/Tuby _raspberry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby _raspberry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		<div class="item">
+    	<a href="/images/products/Tuby/Tuby_strawberry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Tuby/Tuby_strawberry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+</div>
+    </div>	
+  </div>  	  
+</div>
+<div class="container-fluid">
+	<div class="shadow-lg p-3 mb-5 rounded">
+		<div class="w-100 p-3" style="background-color: #eee;">   
+    	<center>
+    		<h1 align="center" style="font-size: 25px">LU-LU</h1>      
+     			<a href="/images/products/Lu-Lu/Lu-Lu_main.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="/images/products/Lu-Lu/Lu-Lu_main.jpg" alt="Highslide JS" style="width: 200px; height: 250px">
+					</a>
+					<h1 align="center" style="font-size: 15px"><%= t 'products.lulu' %></h1>
+					  <h1 align="center" style="line-height: 1; font-size: 12px">
+                        <%= t('products.weght') %> 6 <%= t('products.and') %> 8 <%= t('products.kg') %> 
+                    <br>
+                        <%= t('products.box') %> 132 <%= t('products.pc') %>
+                    <br>
+                        <%= t('products.lifetime') %> 12 <%= t('products.mouth') %>
+                    <br>
+                        <%= t('products.keeping') %> 18 (± 3) ℃
+                    <br>
+                        <%= t('products.pack') %> <%= t('products.gr') %> :150,250,300,400,500,1000
+						</h1>
+    	</center>
+    	<br>
+    	<div class="owl-carousel slide-four">
+    <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_cherry-mandarin.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_cherry-mandarin.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_grape-blackberry.jpg" class="highslide" onclick="return hs.expand(this)">
+					<img src="/images/products/Lu-Lu/Lu-Lu_grape-blackberry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_peach-passion.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_peach-passion.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_pear-apple.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_pear-apple.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		    <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_pineapple.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_pineapple.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		 <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_raspberry-mango.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_raspberry-mango.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		 <div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_strawberry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_strawberry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		<div class="item">
+    	<a href="/images/products/Lu-Lu/Lu-Lu_watermelon-grapepfruit.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Lu-Lu/Lu-Lu_watermelon-grapepfruit.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+</div>
+    </div>	
+  </div>  	  
+</div>
+<div class="container-fluid">
+	<div class="shadow-lg p-3 mb-5 rounded">
+		<div class="w-100 p-3" style="background-color: #eee;">   
+    	<center>
+    		<h1 align="center" style="font-size: 25px">SIM</h1>      
+     			<a href="/images/products/Sim/Sim_main.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="/images/products/Sim/Sim_main.jpg" alt="Highslide JS" style="width: 200px; height: 250px">
+					</a>
+					<h1 align="center" style="font-size: 15px"><%= t 'products.sim' %></h1>
+					  <h1 align="center" style="line-height: 1; font-size: 12px">
+                        <%= t('products.weght') %> 6 <%= t('products.and') %> 8 <%= t('products.kg') %> 
+                    <br>
+                        <%= t('products.box') %> 132 <%= t('products.pc') %>
+                    <br>
+                        <%= t('products.lifetime') %> 12 <%= t('products.mouth') %>
+                    <br>
+                        <%= t('products.keeping') %> 18 (± 3) ℃
+                    <br>
+                        <%= t('products.pack') %> <%= t('products.gr') %> :150,250,300,400,500,1000
+						</h1>
+    	</center>
+    	<br>
+    	<div class="owl-carousel slide-three">
+    <div class="item">
+    	<a href="/images/products/Sim/Sim_mint.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Sim/Sim_mint-blackcurrant.jpg" class="highslide" onclick="return hs.expand(this)">
+					<img src="/images/products/Sim/Sim_mint-blackcurrant.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Sim/Sim_mint-cherry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint-cherry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+    <div class="item">
+    	<a href="/images/products/Sim/Sim_mint-eucalyptus.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint-eucalyptus.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		    <div class="item">
+    	<a href="/images/products/Sim/Sim_mint-grapefruit.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint-grapefruit.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		 <div class="item">
+    	<a href="/images/products/Sim/Sim_mint-lemon.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint-lemon.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		 <div class="item">
+    	<a href="/images/products/Sim/Sim_mint-orange.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint-orange.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+		<div class="item">
+    	<a href="/images/products/Sim/Sim_mint-strawberry.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Sim/Sim_mint-strawberry.jpg" alt="Highslide JS" >
+			</a>
+		</div>
+</div>
+    </div>	
+  </div>  	  
+</div>
+<div class="container-fluid">
+	<div class="shadow-lg p-3 mb-5 rounded">
+		<div class="w-100 p-3" style="background-color: #eee;">   
+    	<center>
+    		<h1 align="center" style="font-size: 25px">HAWAR</h1>      
+     			<a href="/images/products/Hawar/Hawar_main.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="/images/products/Hawar/Hawar_main.jpg" alt="Highslide JS" style="width: 200px; height: 250px">
+					</a>
+					<h1 align="center" style="font-size: 15px"><%= t 'products.hawar' %></h1>
+					  <h1 align="center" style="line-height: 1; font-size: 12px">
+                        <%= t('products.weght') %> 6 <%= t('products.and') %> 8 <%= t('products.kg') %> 
+                    <br>
+                        <%= t('products.box') %> 132 <%= t('products.pc') %>
+                    <br>
+                        <%= t('products.lifetime') %> 12 <%= t('products.mouth') %>
+                    <br>
+                        <%= t('products.keeping') %> 18 (± 3) ℃
+                    <br>
+                        <%= t('products.pack') %> <%= t('products.gr') %> :150,250,300,400,500,1000
+						</h1>
+    	</center>
+    	<br>
+    	<center>
+    	<div class="container">
+    		<a href="/images/products/Hawar/Hawar_choco-milk-walnut.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Hawar/Hawar_choco-milk-walnut.jpg" alt="Highslide JS" style="width: 400px; height: 240px">
+			</a>
+			<a href="/images/products/Hawar/Hawar_choco-walnut.jpg" class="highslide" onclick="return hs.expand(this)">
+				<img src="/images/products/Hawar/Hawar_choco-walnut.jpg" alt="Highslide JS" style="width: 400px; height: 240px">
+			</a>
+    	</div>
+    	</center>
+    </div>	
+  </div>  	  
+</div>
+
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+</body>
+</html>

@@ -1,33 +1,63 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  index:
+    org: "CONFECTIONERY FACTORY «BURKUT»"
+    name_html: "<b>Confectionery factory «BURKUT»</b>"
+    about_html: " is a modern enterprise producing chewing caramel with fruit flavors and milk caramel.
+      <br><br>
+        The quality of the manufactured products is provided by using natural, environmentally friendly raw materials and high-quality natural additives. Particular attention is paid to the quality of incoming raw materials, each batch of which is thoroughly analyzed, including the absence of genetically modified ingredients and safety for health of consumers.
+      <br><br>
+        In our work we try to use new technologies that allow us to produce exactly the products that our consumers are waiting for.
+      <br><br>
+        In order to further meet the requirements of customers and consumers, including in international markets, the management of the confectionary factory «BURKUT» assumes the obligation to continuously improve its activities in the field of quality assurance and food products safety, which is expressed in solutions:
+      <br><br>
+        Undoubtedly to observe the legislative norms of Turkmenistan as well as international regulatory requirements to ensure the quality and safety of manufactured products for the health of consumers in accordance with the requirements of international standards ISO 9001: 2015, ISO 22000: 2005.
+      <br><br>
+        Ensure the effectiveness of the quality and safety management system of food products that allows maintaining its integrity and relevance.
+      <br><br>
+        Ensure that all ingredients of products, materials, cleaning chemicals used in the production are qualitative and safe for the consumer.
+      <br><br>
+        Ensure that all employees of the factory are trained in the awareness of the requirements of the quality and safety management system of food products adopted in production.
+      <br><br>
+        Ensure full cooperation and exchange of information on quality and safety issues with partners, suppliers, contractors and other interested parties so that our requirements in the field of food quality and safety also become their standards.
+      <br><br>
+        Introduce modern methods of assessing and monitoring the safety and quality indicators of manufactured products.
+      </p><br><br>"
+    about2: "The management of the enterprise assumes responsibility for the implementation of the Policy in the field of ensuring the quality and safety of the manufactured products, covering it at all levels of enterprise management. And also creation of conditions for active participation in its realization of the entire team of the confectionery factory «BURKUT»."
+  
+  layout:
+    home: "MAIN"
+    products: "PRODUCTS"
+    partners: "PARTNERS"
+    vacancies: "VACANCIES"
+    contacts: "CONTACTS"
+
+  products:
+    namepage: "PRODUCTS"
+    durdane: "FRUIT FLAVORED CHEWING TOFFEE"
+    lalefam: "MILK CARAMELES WITH DIFFERENT FLAVORS"
+    tuby: "FRUIT FLAVORED CHEWING TOFFEE"
+    lulu: "CARAMEL MIX WITH VARIOUS FRUITS FLAVORS"
+    sim: "CARAMEL MIX WITH VARIOUS MINT AND FRUITS FLAVORS"
+    hawar: "CARAMEL MIX WITH VARIOUS FLAVORS"
+    weght: "Net weight:"
+    box: "Amount of boxes:"
+    lifetime: "Date of expiry:"
+    keeping: "Keeping condition:"
+    pack: "Packaging"
+    gr: "g."
+    kg: "kg."
+    month: "month"
+    pc: "pc."
+    and: "and"
+
+  contacts:
+    namepage: "CONTACTS"
+    write:  "TO CONTACT US"
+    ph1: "Name"
+    ph2: "E-Mail"
+    ph3: "Message"
+    btn: "Send"
+    address: "Address: 6-th plot, Telekechiler street, Anev city, Ak bugday district, Ahal region, Turkmenistan."
+    tel: "Tel: +99 312 57-46-36; +99 312 57-46-37"
+    fax: "Fax: +99 312 57-46-38"
+    mail: "E-mail:"

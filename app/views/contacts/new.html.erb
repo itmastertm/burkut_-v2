@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+<br><br><br><br><br>
+<div class="shadow-lg p-3 mb-5 bg-white rounded" style="height: 60px"> 
+  <div class="w-100 p-3 page-header text-center">
+    <h1 style="margin-top: -35px">
+      <%= t('contacts.namepage') %>
+    </h1>
+     
+  </div> 
+</div>   
+
+
+    <div class="container">
+    <div class="page-header text-center">
+  <h1>
+      <%= t('contacts.address') %>
+      <br>
+      <%= t('contacts.tel') %>
+      <br>
+      <%= t('contacts.fax') %>
+      <br>
+      <%= t('contacts.mail') %> <a href="mailto:info@burkut.biz">info@burkut.biz</a> | <a href="mailto:ipburkut@yandex.ru">ipburkut@yandex.ru</a>
+    </h1>
+     </div>
+  </div>
+   
+<br>
+
+
+<div class="container">
+  <div class="shadow-lg p-3 mb-5 bg-white rounded"> 
+    <div class="w-100 p-3" style="background-color: #eee;">
+      <strong>
+        <center>
+          <h1>
+    <%= t('contacts.write') %>
+          </h1>
+    
+            <%= simple_form_for @contact, :html => {:class => 'form-group' } do |f| %>
+              <%= f.input_field :name, :required => true, :class => "form-control", placeholder: t('contacts.ph1') %>
+              <br>
+              <%= f.input_field :email, :required => true, :class => "form-control", placeholder: t('contacts.ph2') %>
+              <br>
+              <%= f.input_field :message, :as => :text, :required => true, :class => "form-control", style: 'height: 200px', placeholder: t('contacts.ph3') %>
+      
+            <div>
+              </br>
+              <%= f.button :submit, t('contacts.btn'), :class => 'btn btn-success', style: 'width: 300px; border-radius: 30px' %>
+            </div>
+            <% end %>
+
+        
+        </center>
+      </strong>  
+    </div>  
+  </div>    
+</div>
+</body>
+</html>
