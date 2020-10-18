@@ -26,6 +26,11 @@ gem 'mail_form'
 gem 'simple_form'
 gem 'rails-i18n'
 
+gem 'capistrano', '~> 3.11'
+gem 'capistrano-rails', '~> 1.4'
+gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-rvm', '~> 0.1.2'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
