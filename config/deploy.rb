@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "burkut"
-set :repo_url, "github.com:itmastertm/burkut_v2.git"
+set :repo_url, "https://github.com/itmastertm/burkut_v2.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
