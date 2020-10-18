@@ -40,6 +40,7 @@ Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 require 'capistrano/rails'
 require 'capistrano/passenger'
 require 'capistrano/rvm'
+require "capistrano/webpacker/precompile"
 
 set :rvm_type, :user
 set :rvm_ruby, '2.7.1'
