@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.14.1"
 
-set :application, "burkut"
+set :application, "www"
 set :repo_url, "https://github.com/itmastertm/burkut_v2.git"
 
 # Default branch is :master
