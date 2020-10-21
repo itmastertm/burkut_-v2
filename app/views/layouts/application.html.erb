@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css">
     <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="/js/responsiveCarousel.min.js"></script>
+    <%= favicon_link_tag asset_path('/images/logo_0.png') %>
+
   </head>
 
   <body>
@@ -61,13 +63,13 @@
                <span class="badge" style="background: #AC172B"><b><%= t('layout.contacts') %></b></span>
               <% end %>
           </li>
-           <%= link_to url_for(locale: :tm), :class => "nav-link", :style => "margin-top: -40px; width: 35px " do %>
+           <%= link_to url_for(locale: :tm), :class => "nav-link", :style => "margin-top: -40px; width: 55px " do %>
             <%= image_tag "/images/tm.png" %>
           <% end %>
-          <%= link_to url_for(locale: :en), :class => "nav-link", :style => "margin-top: -40px; width: 35px " do %>
+          <%= link_to url_for(locale: :en), :class => "nav-link", :style => "margin-top: -40px; width: 55px " do %>
             <%= image_tag "/images/en.png" %>
           <% end %>
-          <%= link_to url_for(locale: :ru), :class => "nav-link", :style => "margin-top: -40px; width: 35px " do %>
+          <%= link_to url_for(locale: :ru), :class => "nav-link", :style => "margin-top: -40px; width: 55px " do %>
             <%= image_tag "/images/ru.png" %>
           <% end %>
 
