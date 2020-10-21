@@ -2,27 +2,19 @@ tm:
   index:
     org: "«BURKUT» KONDITER FABRIKASY"
     name_html: "<b>«BURKUT» konditer fabrikasy</b>"
-    about_html: " - Miweli tagamly çeýnelýän karameli, süýtli we gaty karameli öndürýän häzirki zaman kärhanadyr.
-      <br><br>
-        Goýberilýän önümiň hili tebigy ekologiki taýdan arassa çig malyň we ýokary hilli tebigy goşundylary ulanmagyň hasabyna üpjün edilýär. Fabrikada girýän çig malyň hiline aýratyn üns berilýär, onuň her bir tapgyry, şol sanda genetiki modifisirlenen ingrediýentleriň ýokdugynyň we sarp edijileriň saglygy üçin howpsuzlygynyň pugta derňewinden geçýär.
-      <br><br>
-        Öz işimizde biz sarp edijileriň garaşýan önümlerini öndürmäge mümkinçilik berýän täze tehnologiýalary ulanmaga çalyşýarys.
-      <br><br>
-        Azyk önümleriň hili we howpsuzlygy pudagyndaky syýasaty kabul etmek bilen “Burkut” konditer fabrikasynyň müdirligi borçlanýar:
-      <br><br>
-        Türkmenistanyň kanunçylyk kadalaryny, şeýle hem ISO 9001:2015, ISO 22000:2005 halkara standartlaryň talaplaryna laýyklykda sarp edijileriň saglygy üçin goýberilýän önümiň hilini we howpsuzlygyny üpjün etmäge bolan halkara kadalaşdyryjy talaplaryny gürrüňsuz berjaý etmek.
-      <br><br>
-        Onuň bütewiligini we aktuallygyny saklamaga mümkinçilik berýän hil menejmenti we azyk önümleriň howpsuzlygy ulgamynyň işlemeginiň netijeliligini üpjün etmek. 
-      <br><br>
-        Önümleri öndürmek ulanylýan önümleriň ähli ingrediýentleriniň, materiallaryň, arassalaýjy himikatlaryň sarp edijiler üçin ýokary hilli we howpsuz bolup durýandygyny kepillendirmek.
-      <br><br>
-        Fabrikanyň ähli işgärleriniň önümçilikde kabul edilen hil menejmenti we azyk önümleriň howpsuzlygy ulgamynyň talaplaryny bilmeklik boýunça okuw geçmegini üpjün etmek.
-      <br><br>
-        Hil we azyk howpsuzlygy pudagynda biziň talaplarymyzyň olaryň standartlary bolmagy üçin hyzmatdaşlar, potratçylar we beýleki bähbitli taraplar bilen hil we howpsuzlyk meseleleri boýunça doly hyzmatdaşlygy we alyş-çalşy üpjün etmek.
-      <br><br>
-        Öndürilýän önümiň howpsuzlyk we hil görkezijileri bahalandyrmagyň we gözegçilik etmegiň häzirki zaman usullary girizmek.
-      </p><br><br>"
-    about2: "Kärhananyň ýolbaşçylary goýberilýän önümiň hilini we howpsuzlygyny üpjün etmek pudagynda Syýasaty amala aşyrmak, kärhanany dolandyryşyň ähli derejelerinde ony ýaýratmak şeýle hem «BURKUT» konditer fabrikasynyň ähli işgärleriniň ony ýerlemäge işjeň gatnaşmagy üçin  şertleri döretmek üçin jogapkärçiligi öz üstüne alýar."
+    about_html: " - ýaş kärhana bolup, onuň düýbi 2017 
+    ýylda tutuldy. Häzirki wagtda biziň fabrigimizde ýewropanyň  häzirki döwüriniň 
+    enjamlarynda dürli görnüşli süýtli we miwe tagamly çeýnelýän, ýumşak we gaty karamelleri, çörek-bulka öndürmeleriň öndürilýär.
+    <br><br>
+    Geljekde konditer önümleriniň görnüşlerini giňeltmegi göz öňüne tutulýar, şol sanda dürli görnüşli 
+    desertli pastalaryň, şokoladly nogullaryň, wafli we köke önümleriň önümçiligi.
+    <br><br>
+    Çykarylýan önümleriň hili, russiýanyň we ýewropanyň öndürijilerden alnýan ekologiýa taýdan arassa, 
+    tebigy çig mallaryň hasaby bilen üpjün edilýär. Esasanam fabrikamyza gelýän çig malyň hiline we howpsuzlygyna 
+    üns berilýär, her tapgyr barlaghana gözegçiliginden ykjamly geçirilýär şol sanda genetiki taýdan üýtgedilen düzüm bölekleriň ýoklugyna.
+    <br><br>
+    Biz öz işimizde alyjylarymyzyň bizden garaşýan önümlerini öndürmäge mümkinçilik berýän täze tehnologiýalary ulanmaklyga çalyşýarys.
+    <br><br>"
   
   layout:
     home: "BAŞ SAHYPA"
@@ -61,5 +53,15 @@ tm:
     tel: "Tel: +99 312 57-46-36; +99 312 57-46-37"
     fax: "Faks: +99 312 57-46-38"
     mail: "E-mail:"
+
+
+  partners:
+    cer: "ŞAHADATNAMALARY"
+    head: "HYZMATDAŞLYK"
+    text: "Biziň bilen hyzmatdaşlyk ediň «BURKUT» konditer kärhanasynda öndürilýän önümlere isleg bildirenligiňiz üçin Size çuňňur minnetdarlyk bildirýäris. 
+    ger-de Siziň ýerleşýän ýeriňizde «BURKUT» kärhanasynyň önümleri ýok bolsa, biziň bilen hyzmatdaşlyk etmäge, biziň distribýuterimiz bolmaga islegiňiz bar bolsa, 
+    bize jaň ediň. Ýa-da biziň elektron poçtamyza hat iberiň. Bilelikde biznes hyzmatdaşlygyny ýola goýmak boýunça mümkinçiliklerimiz bilen jikme jik tanyş ediler. 
+    «BURKUT» konditer kärhanasynyň öndürýän önümleriniň bahalarynyň sanawy berler. Size gyzyklandyrýan ähli soraglaryňyza takyk jogap berler: önümi ammaryňyzyň gapylaryna 
+    çenli eltip bermek; mahabatlandyryş goldawlary; maslahatlar we önümleri şäheriňiziň we welaýatyňyzyň bazarlarynda ilerletmek üçin goldaw ýaly hyzmatdaşlyklar ederis."
 
 

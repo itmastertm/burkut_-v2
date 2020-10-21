@@ -22,9 +22,9 @@
 
     <div class="fixed-top" >  
       <nav class="navbar navbar-expand-lg navbar-light" style="background: #AC172B; z-index: 999; top: 0px; height: 80px">
-        <a class="navbar-brand" href="/">
-          <img src="/images/logo_1.png" width="165" height="120" alt="" loading="lazy" style="margin-top: 40px">
-        </a>
+        <%= link_to root_path, :class => "navbar-brand" do %>
+            <%= image_tag "/images/logo_1.png", :width => "165", :height => "120", :alt => "", :loading => "lazy", :style => "margin-top: 40px" %>
+          <% end %>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: #AC172B ">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -63,11 +63,20 @@
           </li>
 
         </ul>
+        <!-- Сссылки на языки
         <ul>
-    <li><%= link_to 'English', root_path(locale: :en) %></li>
-    <li><%= link_to 'Русский', root_path(locale: :ru) %></li>
-    <li><%= link_to "Job Info", products_path, :class => "nav-link", :style => "color: white; margin-top: 15px; font-size: 22px" %></li>
+          <%= link_to root_path(locale: :tm), :class => "nav-link" do %>
+            <%= image_tag "/images/tm.png" %>
+          <% end %>
+          <%= link_to root_path(locale: :en), :class => "nav-link" do %>
+            <%= image_tag "/images/en.png" %>
+          <% end %>
+          <%= link_to root_path(locale: :ru), :class => "nav-link" do %>
+            <%= image_tag "/images/ru.png" %>
+          <% end %>
+    
   </ul>
+-->
       </nav>
     </div>
     
@@ -80,7 +89,7 @@
       <h7 class="navbar-brand mx-auto">
       <center>
         <b>
-          &copy; "BURKUT" 2020
+          &copy; <%= t 'index.org' %> 2020
         </b>
       </center>
       </h7> 

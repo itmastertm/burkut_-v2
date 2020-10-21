@@ -2,27 +2,18 @@ en:
   index:
     org: "CONFECTIONERY FACTORY «BURKUT»"
     name_html: "<b>Confectionery factory «BURKUT»</b>"
-    about_html: " is a modern enterprise producing chewing caramel with fruit flavors and milk caramel.
-      <br><br>
-        The quality of the manufactured products is provided by using natural, environmentally friendly raw materials and high-quality natural additives. Particular attention is paid to the quality of incoming raw materials, each batch of which is thoroughly analyzed, including the absence of genetically modified ingredients and safety for health of consumers.
-      <br><br>
-        In our work we try to use new technologies that allow us to produce exactly the products that our consumers are waiting for.
-      <br><br>
-        In order to further meet the requirements of customers and consumers, including in international markets, the management of the confectionary factory «BURKUT» assumes the obligation to continuously improve its activities in the field of quality assurance and food products safety, which is expressed in solutions:
-      <br><br>
-        Undoubtedly to observe the legislative norms of Turkmenistan as well as international regulatory requirements to ensure the quality and safety of manufactured products for the health of consumers in accordance with the requirements of international standards ISO 9001: 2015, ISO 22000: 2005.
-      <br><br>
-        Ensure the effectiveness of the quality and safety management system of food products that allows maintaining its integrity and relevance.
-      <br><br>
-        Ensure that all ingredients of products, materials, cleaning chemicals used in the production are qualitative and safe for the consumer.
-      <br><br>
-        Ensure that all employees of the factory are trained in the awareness of the requirements of the quality and safety management system of food products adopted in production.
-      <br><br>
-        Ensure full cooperation and exchange of information on quality and safety issues with partners, suppliers, contractors and other interested parties so that our requirements in the field of food quality and safety also become their standards.
-      <br><br>
-        Introduce modern methods of assessing and monitoring the safety and quality indicators of manufactured products.
-      </p><br><br>"
-    about2: "The management of the enterprise assumes responsibility for the implementation of the Policy in the field of ensuring the quality and safety of the manufactured products, covering it at all levels of enterprise management. And also creation of conditions for active participation in its realization of the entire team of the confectionery factory «BURKUT»."
+    about_html: " - is a young company founded in 2017. At present, our factory produces various types of chewing, 
+    soft and hard caramels with fruit and milk flavors, bakery products using modern European equipment.
+    <br><br>
+    In the near future, it is planned to expand the range of confectionery products, including the production of dessert pastes, 
+    chocolate dragees, wafers and cookies of various kinds.
+    <br><br>
+    The quality of products is ensured through the use of natural, environmentally friendly raw materials from Russian and European manufacturers. 
+    The factory pays special attention to the quality and safety of incoming raw materials, each batch undergoes rigorous laboratory control, 
+    including the absence of genetically modified ingredients.
+    <br><br>
+    In our work, we try to use new technologies that allow us to produce exactly the products that our consumers are waiting for.
+    <br><br>"
   
   layout:
     home: "MAIN"
@@ -61,3 +52,13 @@ en:
     tel: "Tel: +99 312 57-46-36; +99 312 57-46-37"
     fax: "Fax: +99 312 57-46-38"
     mail: "E-mail:"
+
+
+  partners:
+    cer: "CERTIFICATES"
+    head: "BECOME OUR DISTRIBUTOR"
+    text: "We are sincerely glad that you showed interest in the products of the confectionery factory «BURKUT». 
+    If your city does not have the product «BURKUT», but you have an interest and a desire to be our partner, 
+    distributor - please call or write to the email inbox. You learn more about the possibilities of conducting joint business, 
+    provide a price list for confectionery produced «BURKUT» confectionary and as detailed answers to all your questions. 
+    Delivery to the doors of your warehouse, advertising support, advice and assistance in promoting the markets of your city and region."
