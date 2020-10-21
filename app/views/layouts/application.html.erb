@@ -61,21 +61,22 @@
                <span class="badge" style="background: #AC172B"><b><%= t('layout.contacts') %></b></span>
               <% end %>
           </li>
-
-        </ul>
-      <!-- Ссылки на переключение языков
-        <ul>
-          <%= link_to url_for(locale: :tm), :class => "nav-link" do %>
+           <%= link_to url_for(locale: :tm), :class => "nav-link", :style => "margin-top: -40px; width: 35px " do %>
             <%= image_tag "/images/tm.png" %>
           <% end %>
-          <%= link_to url_for(locale: :en), :class => "nav-link" do %>
+          <%= link_to url_for(locale: :en), :class => "nav-link", :style => "margin-top: -40px; width: 35px " do %>
             <%= image_tag "/images/en.png" %>
           <% end %>
-          <%= link_to url_for(locale: :ru), :class => "nav-link" do %>
+          <%= link_to url_for(locale: :ru), :class => "nav-link", :style => "margin-top: -40px; width: 35px " do %>
             <%= image_tag "/images/ru.png" %>
           <% end %>
+
+        </ul>
+             
+        
+         
     
-  </ul> -->
+  
 
       </nav>
     </div>
