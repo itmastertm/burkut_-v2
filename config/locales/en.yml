@@ -28,10 +28,12 @@ en:
     durdane: "FRUIT FLAVORED CHEWING TOFFEE"
     lalefam: "MILK CARAMELES WITH DIFFERENT FLAVORS"
     tuby: "FRUIT FLAVORED CHEWING TOFFEE"
+    tuby2: "CARAMEL MIX WITH VARIOUS FRUITS AND MILK FAVORS"
     lulu: "CARAMEL MIX WITH VARIOUS FRUITS FLAVORS"
     sim: "CARAMEL MIX WITH VARIOUS MINT AND FRUITS FLAVORS"
     hawar: "CARAMEL MIX WITH VARIOUS FLAVORS"
     fam: "«FAM» VANILLA CROSTINI"
+    alam: "CARAMEL MIX WITH VARIOUS FAVORS"
     weght: "Net weight:"
     box: "Amount of boxes:"
     lifetime: "Date of expiry:"
@@ -68,6 +70,15 @@ en:
     tub7: "cherry avored chewing toffee"
     tub8: "melon avored chewing toffee"
 
+    tub21: "pineapple, melon and milk favored caramel"
+    tub22: "strawberry, banana and milk favored caramel"
+    tub23: "blueberry, raspberry and milk favored caramel"
+    tub24: "peach, apricot and milk favored caramel"
+    tub25: "cherry, pomegranat and milk favored caramel"
+    tub26: "grape, melon, strawberry and milk favored caramel"
+    tub27: "passion fruit, mango and milk favored caramel"
+    tub28: "duchesse, blackcurrant and milk favored caramel"
+
     lu1: "strawberry and lime flavored caramel"
     lu2: "pineapple and orange flavored caramel"
     lu3: "watermelon and grapefruit flavored caramel"
@@ -88,6 +99,11 @@ en:
     s6: "mint and lemon flavored caramel"
     s7: "mint and strawberry flavored caramel"
     s8: "mint and eucalyptus flavored caramel"
+
+    al1: "cream flavored milk caramel"
+    al2: "cappuccino flavored milk caramel"
+    al3: "chocolate flavored milk caramel"
+    al4: "hazelnut flavored milk caramel"
 
 
 

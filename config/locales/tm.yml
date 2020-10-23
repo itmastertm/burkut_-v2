@@ -29,10 +29,12 @@ tm:
     durdane: "DÜRLI MIWE TAGAMLY ÇEÝNELÝAN SÜÝJÜLER TOPLUMY"
     lalefam: "DÜRLI TAGAMLY SÜÝTLI KARAMELLER TOPLUMY"
     tuby: "DÜRLI MIWE TAGAMLY ÇEÝNELÝAN SÜÝJÜLER TOPLUMY"
+    tuby2: "DÜRLI MIWE WE SÜÝT TAGAMLY HURUŞLY KARAMELLER TOPLUMY"
     lulu: "DÜRLI MIWE TAGAMLY HURUŞLY KARAMELLER TOPLUMY"
     sim: "DÜRLI MIWE WE NARPYZ TAGAMLY HURUŞLY KARAMELLER TOPLUMY"
     hawar: "DÜRLI TAGAMLY HURUŞLY KARAMELLER TOPLUMY"
     fam: "«FAM» WANIL HOŞBOÝ YSLY KROSTINI"
+    alam: "DÜRLI TAGAMLY SÜÝTLI HURUŞLY KARAMELLER TOPLUMY"
     weght: "Sap agramy:"
     box: "Gutylar:"
     lifetime: "Ýaramlylyk möhleti:"
@@ -69,6 +71,15 @@ tm:
     tub7: "ülje tagamly çeýnelýän süýji"
     tub8: "gawun tagamly çeýnelýän süýji"
 
+    tub21: "ananas, gawun we süýt tagamly huruşly karamel"
+    tub22: "ýertudana, banan we süýt tagamly huruşly karamel"
+    tub23: "çernika, malina we süýt tagamly huruşly karamel"
+    tub24: "şetdaly, erik we süýt tagamly huruşly karamel"
+    tub25: "ülje, nar we süýt tagamly huruşly karamel"
+    tub26: "üzüm, gawun, ýertudanan we süýt tagamly huruşly karamel"
+    tub27: "marakuýa, mango we süýt tagamly huruşly karamel"
+    tub28: "dýüşes, gara smorodina we süýt tagamly huruşly karamel"
+
     lu1: "ýertudana we laým tagamly huruşly karamel"
     lu2: "ananas we pyrtykal tagamly huruşly karamel"
     lu3: "garpyz we greýpfrut tagamly huruşly karamel"
@@ -89,6 +100,11 @@ tm:
     s6: "narpyz we limon tagamly huruşly karamel"
     s7: "narpyz we ýertudana tagamly huruşly karamel"
     s8: "narpyz we ewkalipt tagamly huruşly karamel"
+
+    al1: "gaýmak tagamly süýtli huruşly karamel"
+    al2: "kapuçino tagamly süýtli huruşly karamel"
+    al3: "şokolad tagamly süýtli huruşly karamel"
+    al4: "funduk tagamly süýtli huruşly karamel"
 
   contacts:
     namepage: "HABARLAŞMAK"
