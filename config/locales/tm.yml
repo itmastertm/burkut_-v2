@@ -107,6 +107,7 @@ tm:
     al4: "funduk tagamly süýtli huruşly karamel"
 
   contacts:
+    alert: "Habaryňyz üçin sag boluň. Elbetde mümkin boldugyça gysga wagtda habarlaşarys!"
     namepage: "HABARLAŞMAK"
     write:  "BIZ BILEN HABARLAŞMAK ÜÇIN"
     ph1: "Ady"

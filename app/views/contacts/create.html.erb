@@ -1,9 +1,13 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div>
-  <% flash.each do |key, value| %>
-    <div>
-      <a href="#" data-dismiss="alert">×</a>
-        <%= value %>
-    </div>
-  <% end %>
+	<h1>
+  	<% flash.each do |key, value| %>
+    	<div class="alert alert-<%= key %>" role="alert">
+    	<%= value %>
+    	</div>
+  	<% end %>
+	</h1>
 </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

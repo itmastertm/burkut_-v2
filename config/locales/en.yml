@@ -108,6 +108,7 @@ en:
 
 
   contacts:
+    alert: "Thank you for your message. We will definitely contact you as soon as possible!"
     namepage: "CONTACTS"
     write:  "TO CONTACT US"
     ph1: "Name"

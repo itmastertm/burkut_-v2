@@ -7,9 +7,9 @@ def new
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-		flash.now[:success] = 'Спасибо за Ваше сообщение. Мы обязательно свяжемся с Вами в ближайшее время!'
+		flash[:success] = t 'contacts.alert'
     else
-     flash.now[:error] = 'Не возможно отправить сообщение.'
+     flash.now[:danger] = 'Не возможно отправить сообщение.'
       render :new
     end
   end
