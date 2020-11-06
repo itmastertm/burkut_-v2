@@ -6,7 +6,7 @@ def new
   def create
     @contact = Contact.new(params[:contact])
     @contact.request = request
-    if @contact.deliver
+    if verify_recaptcha(model: @contact) && @contact.deliver
 		flash[:success] = t 'contacts.alert'
     else
      flash.now[:danger] = 'Не возможно отправить сообщение.'

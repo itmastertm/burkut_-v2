@@ -44,6 +44,7 @@
               <%= f.input_field :email, :required => true, :class => "form-control", placeholder: t('contacts.ph2') %>
               <br>
               <%= f.input_field :message, :as => :text, :required => true, :class => "form-control", style: 'height: 200px', placeholder: t('contacts.ph3') %>
+              <%= recaptcha_tags %>
       
             <div>
               </br>
